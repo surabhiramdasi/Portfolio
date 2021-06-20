@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/glightbox.min.css" />
 	</head>
 	<body class="is-preload">
 
@@ -27,7 +28,7 @@
 					</div>
 
 				<!-- Header -->
-					<!-- <header id="headerTryingtomakeimageswork">
+					<!-- <header id="header">
 						<a href="index.html" class="logo">Massively</a>
 					</header> -->
 
@@ -66,7 +67,7 @@
 										<!-- <span class="date">April 24, 2017</span> -->
 										<h2>Product Design, Development and Project Management</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="images/pic02.jpg" class="glightbox"><img src="images/pic02.jpg" alt="" class="image fit" /></a>
 									<p>I have product design experience on various engine and transmission subsytems, fuel cell components and other individual projects. I have used Solidworks and PTC Creo
 										for my design projects in the past. After working in a purely design related role, I worked on product development wherein I delivered customer-centric design solutions for 
 										the North American and Europe market. 
@@ -80,7 +81,7 @@
 										<!-- <span class="date">April 22, 2017</span> -->
 										<h2>Thermal and Stress Analysis</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/Stress.JPG" alt="" /></a>
+									<a href="images/Stress.JPG" class="glightbox"><img src="images/Stress.JPG" alt="" class="image fit" /></a>
 									<p>I am proficient in steady-state and transient thermomechanical analysis in addition to stress analysis. I use Ansys Workbench and APDL extensively in my current role. 
 										I have also dabbled in Ansys Discovery for a faster turnaround on simpler analysis models. I have used Abaqus to run modal and static analysis for my Master's 
 										thesis.
@@ -94,7 +95,7 @@
 										<!-- <span class="date">April 18, 2017</span> -->
 										<h2>Design Optimization</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/target.jpg" alt="" /></a>
+									<a href="images/target.jpg" class="glightbox"><img src="images/target.jpg" alt="" class="image fit" /></a>
 									<p>In my experience, using a dedicated software for optimizing a design streamlines the ALD (Analysis Led Design) process to a great extent. I have been able to 
 										save time on iterations and drive non-intuitive design improvements through topology optimization. I have optimized different components such as cylinder heads,
 										mounting brackets, and fuel cell stack plates which led to impressive design improvements.
@@ -108,7 +109,7 @@
 										<!-- <span class="date">April 14, 2017</span> -->
 										<h2>Fatigue Analysis</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/S_N.JPG" alt="" /></a>
+									<a href="images/S_N.JPG" class="glightbox"><img src="images/S_N.JPG" alt="" class="image fit" /></a>
 									<p>Repetitive loading can prove detrimental to structural components. For instance, engines are subjected to thermal and mechanical loads day in and day out.
 										Ensuring that the designed engine components will not fail before the warranty period ends is extremely critical. I work on analyzing fatigue failure for different 
 										loading conditions using Ansys and Simulia FE-Safe.
@@ -222,6 +223,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/glightbox.min.js"></script>
+		
+			<script types="text/javascript">
+				const lightbox = GLightbox({ loop: true });
+			</script>
 
 	</body>
 </html>
